@@ -38,15 +38,10 @@ Ejecuta todas las pruebas sin interfaz gráfica (headless).
 ```bash
 npm run cy:open
 ```
-### Estructura del Proyecto
-cypress.config.js: 
-Archivo de configuración principal de Cypress. Contiene los timeouts, variables de entorno y el navegador por defecto.
+## Estructura del Proyecto
 
-cypress/e2e/: 
-Contiene todos los archivos de prueba (.cy.js).
-
-cypress/support/commands.js: 
-Aquí se definen los comandos personalizados reutilizables, como cy.askBot().
-
-cypress/support/e2e.js: 
-Archivo de arranque global. Se usa para importar plugins o definir escuchas de eventos.
+- `cypress.config.js`:Archivo de configuración principal de Cypress. Contiene los timeouts, variables de entorno y el navegador por defecto.
+- `cypress/e2e/`:Contiene todos los archivos de prueba (.cy.js).
+- `cypress/support/commands.js`:Aquí se definen los comandos personalizados reutilizables, como cy.askBot().
+- `cypress/support/e2e.js`:Archivo de arranque global. Se usa para importar plugins o definir escuchas de eventos.
+- `package.json`: Define las dependencias del proyecto y los scripts de ejecución.
