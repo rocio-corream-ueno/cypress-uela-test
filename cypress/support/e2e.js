@@ -16,7 +16,6 @@
 // Import commands.js using ES2015 syntax:
 import './commands'
 
-
 Cypress.on('uncaught:exception', (err, runnable) => {
     // Le decimos a Cypress que ignore los errores específicos de IndexedDB
     // que vienen de la aplicación del chatbot.

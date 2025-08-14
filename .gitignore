@@ -13,3 +13,5 @@ Thumbs.db
 
 # Archivos de inteliJ
  .idea/
+*.iml
+*.xml

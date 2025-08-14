@@ -3,13 +3,15 @@ const { defineConfig } = require("cypress");
 module.exports = defineConfig({
 
 responseTimeout: 15000,
-defaultCommandTimeout: 20000,
+defaultCommandTimeout: 15000,
 requestTimeout: 15000,
 
   e2e: {
+    experimentalMemoryManagement: true,
+    numTestsKeptInMemory: 5,
     browser: 'chrome',
     setupNodeEvents(on, config) {
-      defaultCommandTimeout: 20000 // Aumenta el timeout por defecto a 20 segundos (10000 ms)
+      defaultCommandTimeout: 15000 // Aumenta el timeout por defecto a 20 segundos (10000 ms)
     },
   },
 

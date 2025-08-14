@@ -1,0 +1,36 @@
+{
+  "flujoCotizacion": [
+    {
+      "pregunta": "Quiero viajar a Cancún",
+      "respuestasEsperadas": ["desde", "donde", "Cancun"]
+    },
+    {
+      "pregunta": "voy a salir desde Bogota",
+      "respuestasEsperadas": ["fecha", "fechas", "pensado", "cuando"]
+    },
+    {
+      "pregunta": "del 20 al 30 del proximo mes",
+      "respuestasEsperadas": ["adultos", "personas"]
+    },
+    {
+      "pregunta": "2 Adultos y 3 niños",
+      "respuestasEsperadas": ["Productos", "Paquetes"]
+    },
+    {
+      "pregunta": "quiero averiguar por el paquete turistico",
+      "respuestasEsperadas": ["Nombre", "Apellido"]
+    },
+    {
+      "pregunta": "Juan Perez",
+      "respuestasEsperadas": ["correo", "electrónico"]
+    },
+    {
+      "pregunta": "uenotests@gmail.com",
+      "respuestasEsperadas": ["recopile", "datos"]
+    },
+    {
+      "pregunta": "si esta ok",
+      "respuestasEsperadas": ["info", "viaje", "persona"]
+    }
+  ]
+}

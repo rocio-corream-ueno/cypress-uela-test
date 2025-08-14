@@ -1,0 +1,40 @@
+{
+  "flujoReclamos": [
+    {
+      "pregunta": "no pude recibir la cotizacion",
+      "respuestasEsperadas": ["ayudarte", "detalles", "nombre"]
+    },
+    {
+      "pregunta": "Juan Perez",
+      "respuestasEsperadas": ["correo"]
+    },
+    {
+      "pregunta": "uenotests@gmail.com",
+      "respuestasEsperadas": ["cedula", "pasaporte", "documento"]
+    },
+    {
+      "pregunta": "cedula",
+      "respuestasEsperadas": ["numero"]
+    },
+    {
+      "pregunta": "8789787",
+      "respuestasEsperadas": ["contame", "sucedio"]
+    },
+    {
+      "pregunta": "no me ha llegado a mi correo la cotizacion que habia hecho con ustedes",
+      "respuestasEsperadas": ["codigo", "reserva"]
+    },
+    {
+      "pregunta": "No lo tengo",
+      "respuestasEsperadas": ["datos", "bien", "persona"]
+    },
+    {
+      "pregunta": "no estan bien el documento es 98789787",
+      "respuestasEsperadas": ["documento", "bien", "persona"]
+    },
+    {
+      "pregunta": "si estan ok",
+      "respuestasEsperadas": ["informacion", "persona", "Algo"]
+    }
+  ]
+}
