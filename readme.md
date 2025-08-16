@@ -70,7 +70,7 @@ Estrategia modular y Test-Data Driven para facilitar la reutilización y manteni
        ```bash
        datos.flujoCotizacion_Preguntasevasivas.forEach(turno => {
       ```
-    ``` json
+```json
     {
     "flujoCotizacion_Preguntasevasivas": [
       {
@@ -82,8 +82,8 @@ Estrategia modular y Test-Data Driven para facilitar la reutilización y manteni
         "respuestasEsperadas": ["fecha", "fechas", "pensado", "cuando"]
       }
     ]
-      }
-      ```
+   }
+```
 ### Para preguntas fuera del flujo de cada boton o solo una pregunta en proceso de Informacion General:
 - Este proceso crea por cada pregunta un nuevo caso de prueba, por ende cada pregunta agregada en los archivos:`flujoFuera.json` y `flujoInfoGralPorPregunta.json` crea un nuevo caso de prueba.
 - Simplemente hay que agregar las preguntas y las palabras esperadas.
