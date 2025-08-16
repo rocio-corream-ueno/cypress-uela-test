@@ -6,14 +6,14 @@ describe('Pruebas del flujo "Cotizar mi viaje"', () => {
     // Visita la página antes de cada prueba
     cy.visit(Cypress.env ('chatbotUrl'));
     // VERIFICAR los mensajes iniciales y hacer clic en el botón
-        cy.get('.bot-bubble-comp .bubble-msg', { timeout: 15000 }).should('have.length.at.least', 2);
+        cy.get('.bot-bubble-comp .bubble-msg', { timeout: 7000 }).should('have.length.at.least', 2);
         cy.get('.bot-bubble-comp .bubble-msg').eq(1).should('contain.text', 'Elegí una de estas opciones');
         cy.contains('button', 'Cotizar mi viaje').should('be.visible').click();
         // Esperamos la primera respuesta después del clic
         cy.get('.bot-bubble-comp .bubble-msg').last().should('contain.text', 'Contame sobre el viaje');
   });
 
-  it('Debe completar la cotización y finalizar con No, gracias', () => {
+  it('Debe completar la cotización y finalizar con No, gracias -- flujoCotizacion.json', () => {
 
    // CARGAR Y RECORRER LOS DATOS ---
        cy.fixture('flujoCotizacion.json').then((datos) => {
@@ -28,7 +28,7 @@ describe('Pruebas del flujo "Cotizar mi viaje"', () => {
            cy.validateMainMenu();
   });
 
-it('Debe completar la cotización y finalizar con Si, gracias', () => {
+it('Debe completar la cotización y finalizar con Si, gracias -- flujoCotizacion.json', () => {
 
    // CARGAR Y RECORRER LOS DATOS ---
        cy.fixture('flujoCotizacion.json').then((datos) => {

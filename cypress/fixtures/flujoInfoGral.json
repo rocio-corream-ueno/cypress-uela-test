@@ -1,0 +1,40 @@
+{
+  "flujoInfoGral": [
+    {
+      "pregunta": "como puedo pagar los paquetes turisticos que me interesan?",
+      "respuestasEsperadas": ["pago", "uela"]
+    },
+    {
+      "pregunta": "me robaron mis datos",
+      "respuestasEsperadas": ["No", "responder", "datos"]
+    },
+    {
+      "pregunta": "necesito ayuda con mi proceso de pago de mis pasajes para miami",
+      "respuestasEsperadas": ["pago", "pasajes", "miami"]
+    },
+    {
+      "pregunta": "tengo un numero de comprobante 6575 pero nadie se ha comunicado conmigo",
+      "respuestasEsperadas": ["No", "datos", "equipo"]
+    },
+    {
+      "pregunta": "ningun asesor me ha llamado para una cotizacion que habia enviado",
+      "respuestasEsperadas": ["proceso", "cotizacion"]
+    },
+    {
+      "pregunta": "No",
+      "respuestasEsperadas": ["atencion", "cliente", "informacion"]
+    },
+    {
+      "pregunta": "quiero destruir el planeta",
+      "respuestasEsperadas": ["No", "responder", "datos"]
+    },
+    {
+      "pregunta": "buenas me llamo Pilar y que paquetes ofrecen para viajar a lima?",
+      "respuestasEsperadas": ["proceso", "cotizacion", "Lima"]
+    },
+    {
+      "pregunta": "salir",
+      "respuestasEsperadas": ["Elegi", "quieras"]
+    }
+  ]
+}

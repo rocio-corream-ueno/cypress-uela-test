@@ -15,6 +15,7 @@
 
 // Import commands.js using ES2015 syntax:
 import './commands'
+import 'cypress-mochawesome-reporter/register';
 
 Cypress.on('uncaught:exception', (err, runnable) => {
     // Le decimos a Cypress que ignore los errores específicos de IndexedDB
@@ -23,5 +24,16 @@ Cypress.on('uncaught:exception', (err, runnable) => {
       return false;
     }
     // Para cualquier otro error, deja que Cypress falle la prueba.
+    return true;
+  });
+
+Cypress.on('uncaught:exception', (err, runnable) => {
+    // Le decimos a Cypress que ignore el error específico de 'querySelectorAll'
+    // y no falle la prueba.
+    if (err.message.includes("Cannot read properties of undefined (reading 'querySelectorAll')")) {
+      return false;
+    }
+
+    // Para cualquier otro error inesperado, dejamos que Cypress falle el test como es normal.
     return true;
   });

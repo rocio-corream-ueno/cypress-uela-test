@@ -1,0 +1,56 @@
+{
+  "fueraDeLosFlujos": [
+    {
+      "pregunta": "como hago una cotizacion en uela?",
+      "respuestasEsperadas": ["opciones"]
+    },
+    {
+      "pregunta": "hola",
+      "respuestasEsperadas": ["opciones"]
+    },
+    {
+      "pregunta": "quiero que me pasen con un agente humano",
+      "respuestasEsperadas": ["opciones"]
+    },
+    {
+      "pregunta": "chao",
+      "respuestasEsperadas": ["opciones"]
+    },
+    {
+      "pregunta": "tengo un problema",
+      "respuestasEsperadas": ["ayudarte"]
+    },
+    {
+      "pregunta": "quiero conquistar el mundo!!!!",
+      "respuestasEsperadas": ["opciones"]
+    },
+    {
+      "pregunta": ":D",
+      "respuestasEsperadas": ["opciones"]
+    },
+    {
+      "pregunta": "cotizacion",
+      "respuestasEsperadas": ["informacion", "viaje"]
+    },
+    {
+      "pregunta": "salir",
+      "respuestasEsperadas": ["opciones"]
+    },
+    {
+      "pregunta": "tengo un reclamo",
+      "respuestasEsperadas": ["contame", "ayudarte"]
+    },
+    {
+      "pregunta": "salir",
+      "respuestasEsperadas": ["opciones"]
+    },
+    {
+      "pregunta": "necesito informacion general",
+      "respuestasEsperadas": ["consultas", "generales", "ayudarte"]
+    },
+    {
+      "pregunta": "bye",
+      "respuestasEsperadas": ["seguimos", "cuando"]
+    }
+  ]
+}

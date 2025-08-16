@@ -26,11 +26,11 @@
     },
     {
       "pregunta": "uenotests@gmail.com",
-      "respuestasEsperadas": ["recopile", "datos"]
+      "respuestasEsperadas": ["algo", "mas", "paquete", "datos"]
     },
     {
       "pregunta": "si esta ok",
-      "respuestasEsperadas": ["info", "viaje", "persona"]
+      "respuestasEsperadas": ["info", "viaje", "persona", "algo"]
     }
   ]
 }
