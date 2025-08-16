@@ -66,10 +66,10 @@ Estrategia modular y Test-Data Driven para facilitar la reutilización y manteni
 
     3. Ajusta el Archivo de Prueba:
        Asegúrate de que el script haga clic en el botón correcto al inicio ("Cotizar mi viaje") y que cargue el archivo JSON correcto (`cy.fixture('flujocotizacion_Preguntasevasivas.json')`).
-    4. Asegurate que tenga el mismo nombre al array dentro del archivo y modificalo en: 
-       ```bash
+    4. Asegurate que tenga el mismo nombre al array dentro del archivo y modificalo en:
+    ```bash
        datos.flujoCotizacion_Preguntasevasivas.forEach(turno => {
-      ```
+  ```
 ```json
     {
     "flujoCotizacion_Preguntasevasivas": [
