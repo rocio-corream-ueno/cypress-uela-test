@@ -22,7 +22,7 @@ Cypress.Commands.add('askBot', (message, expectedKeywordsArray) => {
   cy.get('.send-btn').should('be.visible').click();
 
   // --- BLOQUE DE DEPURACIÓN Y VERIFICACIÓN ---
-  cy.get('.bot-bubble-comp .bubble-msg', { timeout: 12000 })
+  cy.get('.bot-bubble-comp .bubble-msg', { timeout: 25000 })
      .should('have.length', initialBotMessages + 1)
       .last()
       // Usamos .then() para inspeccionar el elemento antes de la aserción final

@@ -46,7 +46,7 @@
     },
     {
       "pregunta": "necesito informacion general",
-      "respuestasEsperadas": ["consultas", "generales", "ayudarte"]
+      "respuestasEsperadas": ["consultas", "generales", "ayudarte", "Si tenés consultas generales sobre los productos y servicios de uela, estoy para ayudarte. ✈\uFE0FTené en cuenta que mis respuestas son orientativas."]
     },
     {
       "pregunta": "bye",

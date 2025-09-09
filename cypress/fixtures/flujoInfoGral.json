@@ -17,8 +17,8 @@
       "respuestasEsperadas": ["No", "datos", "equipo"]
     },
     {
-      "pregunta": "ningun asesor me ha llamado para una cotizacion que habia enviado",
-      "respuestasEsperadas": ["proceso", "cotizacion"]
+      "pregunta": "Que hoteles me recomiendas en Quebec",
+      "respuestasEsperadas": ["viaje", "cotizar"]
     },
     {
       "pregunta": "No",
@@ -30,7 +30,7 @@
     },
     {
       "pregunta": "buenas me llamo Pilar y que paquetes ofrecen para viajar a lima?",
-      "respuestasEsperadas": ["proceso", "cotizacion", "Lima"]
+      "respuestasEsperadas": ["proceso", "cotizacion", "Lima", "viaje", "cotizar"]
     },
     {
       "pregunta": "salir",

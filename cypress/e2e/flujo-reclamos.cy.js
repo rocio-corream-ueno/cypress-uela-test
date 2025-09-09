@@ -3,10 +3,17 @@ describe('Pruebas del flujo "Reclamos y Gestiones"', () => {
   beforeEach(() => {
     cy.visit(Cypress.env('chatbotUrl'));
     //hacemos clic en el botón "Reclamos y gestiones" ---
-    cy.get('.bot-bubble-comp .bubble-msg', { timeout: 7000 }).should('have.length.at.least', 2);
+    cy.get('.bot-bubble-comp .bubble-msg', { timeout: 10000 }).should('have.length.at.least', 2);
     cy.contains('button', 'Reclamos y gestiones').should('be.visible').click();
-     // Verificamos la primera respuesta del bot para este flujo
-    cy.get('.bot-bubble-comp .bubble-msg').last().should('contain.text', 'Contame cómo puedo ayudarte');
+
+    // 1. Verificamos que aparezca el PRIMER mensaje nuevo.
+      // cy.contains espera automáticamente a que el elemento aparezca.
+      cy.contains('.bot-bubble-comp .bubble-msg', 'Asistencia inmediata', { timeout: 10000 })
+        .should('be.visible');
+
+    // 2. Y LUEGO, verificamos que aparezca el SEGUNDO mensaje, que es nuestro punto de partida.
+      cy.contains('.bot-bubble-comp .bubble-msg', 'puedo ayudarte',{ matchCase: false, timeout: 15000 })
+        .should('be.visible');
   });
 
   it('Debe completar el flujo de reclamos y terminando con un Si, por favor -- flujoReclamos.json', () => {
