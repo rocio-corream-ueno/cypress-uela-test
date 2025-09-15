@@ -2,7 +2,7 @@
   "flujoInfoGral": [
     {
       "pregunta": "como puedo pagar los paquetes turisticos que me interesan?",
-      "respuestasEsperadas": ["pago", "uela"]
+      "respuestasEsperadas": ["pagar", "tarjetas", "plataforma"]
     },
     {
       "pregunta": "me robaron mis datos",
@@ -14,11 +14,12 @@
     },
     {
       "pregunta": "tengo un numero de comprobante 6575 pero nadie se ha comunicado conmigo",
-      "respuestasEsperadas": ["No", "datos", "equipo"]
+      "respuestasEsperadas": ["datos", "asesor", "2"]
+
     },
     {
       "pregunta": "Que hoteles me recomiendas en Quebec",
-      "respuestasEsperadas": ["viaje", "cotizar"]
+      "respuestasEsperadas": ["No", "respuesta", "recursos", "actuales"]
     },
     {
       "pregunta": "No",
@@ -31,6 +32,22 @@
     {
       "pregunta": "buenas me llamo Pilar y que paquetes ofrecen para viajar a lima?",
       "respuestasEsperadas": ["proceso", "cotizacion", "Lima", "viaje", "cotizar"]
+    },
+    {
+      "pregunta": "Hola, quiero viajar a Europa y quisiera saber si ueno bank puede ofrecerme un credito para este viaje?",
+      "respuestasEsperadas": ["proceso", "cotizacion", "viaje", "cotizar"]
+    },
+    {
+      "pregunta": "que hace uela",
+      "respuestasEsperadas": ["plataforma", "certificada", "viaje", "paquetes"]
+    },
+    {
+      "pregunta": "ueno no me presta dinero para mi viaje?",
+      "respuestasEsperadas": ["No", "respuesta", "recursos", "actuales"]
+    },
+    {
+      "pregunta": "que relacion tienen uela y ueno?",
+      "respuestasEsperadas": ["viajes", "banco", "financiero", "asesor", "2"]
     },
     {
       "pregunta": "salir",

@@ -42,6 +42,10 @@ Si se desea ejecutar una prueba específica, se puede hacer de la siguiente mane
 ```bash
 npm run cy:run -- --spec "cypress/e2e/flujo-reclamos.cy.js"
 ```
+Si desea ejecutar más de una prueba:
+```bash
+npm run cy:run -- --spec "cypress/e2e/flujo-infogral-conversacion-completa.cy.js,cypress/e2e/flujo-infogral-una-pregunta.cy.js"
+```
 
 ## Estructura del Proyecto
 
