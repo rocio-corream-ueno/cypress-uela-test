@@ -25,8 +25,9 @@ describe('Pruebas del flujo "Cotizar mi viaje"', () => {
        // Después de que toda la conversación del JSON termina, hacemos el último clic.
        cy.contains('button', 'No, gracias',{ matchCase : false }).should('be.visible').click();
        // validar que el bot regresó al inicio
-           cy.validateMainMenu();
-  });
+           cy.contains('.bot-bubble-comp .bubble-msg', '¡Listo! Seguimos cuando quieras. 👋', { matchCase: false})
+                     .should('be.visible');
+  })
 
 it('Debe completar la cotización y finalizar con Si, gracias -- flujoCotizacion.json', () => {
 

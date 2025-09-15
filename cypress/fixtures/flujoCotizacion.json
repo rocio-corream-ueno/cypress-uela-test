@@ -6,31 +6,31 @@
     },
     {
       "pregunta": "voy a salir desde Bogota",
-      "respuestasEsperadas": ["fecha", "fechas", "pensado", "cuando"]
+      "respuestasEsperadas": ["fecha", "salida", "salir", "regresar"]
     },
     {
-      "pregunta": "del 20 al 30 del proximo mes",
-      "respuestasEsperadas": ["adultos", "personas"]
+      "pregunta": "31 de Septiembre al 5 de Octubre",
+      "respuestasEsperadas": ["no", "existe", "fecha", "Septiembre"]
     },
     {
-      "pregunta": "2 Adultos y 3 niños",
-      "respuestasEsperadas": ["Productos", "Paquetes"]
+      "pregunta": "30 de Septiembre al 5 de Octubre",
+      "respuestasEsperadas": ["cantidad de adultos"]
     },
     {
-      "pregunta": "quiero averiguar por el paquete turistico",
+      "pregunta": "2 adultos y 3 ninios",
+      "respuestasEsperadas": ["producto", "cotizar"]
+    },
+    {
+      "pregunta": "todo",
       "respuestasEsperadas": ["Nombre", "Apellido"]
     },
     {
       "pregunta": "Juan Perez",
-      "respuestasEsperadas": ["correo", "electrónico"]
+      "respuestasEsperadas": ["Bogota", "cancun", "30/09", "05/10", "2 adultos", "3 menores", "pasajes, hospedaje, paquetes turisticos, excursiones, alquiler de auto, crucero y traslados"]
     },
     {
-      "pregunta": "uenotests@gmail.com",
-      "respuestasEsperadas": ["algo", "mas", "paquete", "datos"]
-    },
-    {
-      "pregunta": "si esta ok",
-      "respuestasEsperadas": ["info", "viaje", "persona", "algo"]
+      "pregunta": "si estbn ok",
+      "respuestasEsperadas": ["Juan", "info", "equipo", "Whatsapp", "telefono"]
     }
   ]
 }

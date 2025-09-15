@@ -2,16 +2,16 @@ const { defineConfig } = require("cypress");
 
 module.exports = defineConfig({
 
-responseTimeout: 20000,
-defaultCommandTimeout: 20000,
-requestTimeout: 20000,
+responseTimeout: 15000,
+defaultCommandTimeout: 15000,
+requestTimeout: 15000,
 
   e2e: {
     experimentalMemoryManagement: true,
     numTestsKeptInMemory: 5,
     browser: 'chrome',
     setupNodeEvents(on, config) {
-      defaultCommandTimeout: 20000 // Aumenta el timeout por defecto a 15 segundos (15000 ms)
+      defaultCommandTimeout: 15000 // Aumenta el timeout por defecto a 15 segundos (15000 ms)
       require('cypress-mochawesome-reporter/plugin')(on);
     },
   },
